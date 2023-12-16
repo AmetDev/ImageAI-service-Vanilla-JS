@@ -1,0 +1,1 @@
+# ImageAI-service-Vanilla-JS
