@@ -1,0 +1,52 @@
+.header {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.root {
+	background-color: #6165d7;
+	ul > li {
+		display: list-item;
+		list-style: none;
+	}
+}
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.search {
+	background-image: url('./assets/icons/Vector (1).svg');
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	width: 1210px;
+	height: 92px;
+	border-radius: 40px;
+	font-size: 26px;
+	flex-shrink: 0;
+	padding: 5px 0px 5px 80px;
+    border-style: none;
+}
+
+.headerBtn {
+    align-items: center;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.imageElement {
+	margin-bottom: 80px;
+}
